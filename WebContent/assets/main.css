@@ -1,0 +1,158 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.shd:hover{
+color: #fdec6e;
+
+text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #fdec6e 0px 0px 20px, #fdec6e 0px 0px 30px, #FF2D95 0px 0px 40px, #fdec6e 0px 0px 50px, #fdec6e 0px 0px 75px;
+}
+
+.shd1:hover{
+color: #ffffff;
+
+text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #00EFE1 0px 0px 20px, #00EFE1 0px 0px 30px, #00EFE1 0px 0px 40px, #00EFE1 0px 0px 50px, #00EFE1 0px 0px 75px;
+
+}
+.hedr
+{
+margin-top:20px;
+font-size: 33px;
+letter-spacing: 3.2px;
+word-spacing: 0px;
+color: #2A2A2A;
+font-weight: normal;
+text-decoration: overline solid rgb(68, 68, 68);
+font-style: normal;
+font-variant: normal;
+text-transform: uppercase;
+}
+
+.carousell{
+	
+	margin-top: 15%;
+	
+}
+.mvt{
+  margin-top: 30%;
+  
+  }
+  
+  .fss{
+  font-size:15px;
+  margin:0;
+  
+  }
+  .fss1{
+  font-size:8px;
+  margin:0;
+  }
+  
+
+@media (max-width: 1499px) and (min-width: 904px) {
+  .carousell {
+  
+  	margin-top: 3%;
+  	
+    
+  }
+  .mvt{
+  margin-top: 18%;
+  }
+  .fss{
+  font-size:35px;
+  margin:15px;
+  }
+  .fss1{
+  font-size:20px;
+  margin:10px;
+  }
+  
+  
+}
+@media (max-width: 905px) and (min-width: 500px) {
+ .carousell{
+	
+	margin-top: 8%;
+	
+}
+.mvt{
+  margin-top: 25%;
+  
+  }
+  .fss{
+  font-size:17px;
+  
+  }
+  .fss1{
+  font-size:12px;
+  
+  }
+  
+  
+}
+
+
+
+@media (min-width: 1500px) {
+  .carousell {
+  
+  	margin-top: 2%;
+    
+  }
+  .mvt{
+  margin-top: 15%;
+  }
+  .fss{
+  font-size:35px;
+  margin:20px;
+  }
+  .fss1{
+  font-size:20px;
+  margin:20px;
+  }
+  
+}
+
+/* social media */
+
+.fb:hover{
+	color:#4267B2;
+	font-size:30px;
+	transition: 0.3s;
+	
+	
+	
+}
+.in:hover{
+	color:#bc2a8d;
+	font-size:30px;
+	transition: 0.3s;
+	
+}
+.ld:hover{
+	color:#0077b5;
+	font-size:30px;
+	transition: 0.3s;
+	
+}
+.tw:hover{
+	color:#00acee;
+	font-size:30px;
+	transition: 0.3s;
+	
+}
+
+.map-responsive{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-responsive iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
