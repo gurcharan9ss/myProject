@@ -1,6 +1,9 @@
 # myProject
 Edulab
 
+Technology used : Java(jsp and servlet), MySQL
+Fully responsive website
+
 name of the database : user
 
 import sql file to database
